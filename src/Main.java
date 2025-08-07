@@ -1,8 +1,7 @@
 import java.util.List;
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
  public class Main {
      public static void main(String[] args) {
 
@@ -145,7 +144,6 @@ import java.util.Scanner;
                     return "Description contains disallowed characters.";
                 }
 
-                // Example: forbid SQL-like injection patterns (very basic)
                 if (desc.toLowerCase().matches(".*(select\\s+.*from|drop\\s+table).*")) {
                     return "Description contains suspicious content.";
                 }

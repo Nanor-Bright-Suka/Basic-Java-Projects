@@ -22,8 +22,33 @@ bin/
 /nbdist/
 /.nb-gradle/
 
-### VS Code ###
-.vscode/
+# Compiled class files
+*.class
 
-### Mac OS ###
-.DS_Store
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+target/
+
+# Windows system files
+Thumbs.db
+
+# Java-specific IDE configs
+*.ipr
+*.bak
+*.swp
