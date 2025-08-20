@@ -1,3 +1,5 @@
+package com.nanor.todoapp;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -10,7 +12,7 @@ import java.util.Scanner;
 
         while (true) {
             System.out.println("\n--- TODO APP ---");
-            System.out.println("1. Create Todo");
+            System.out.println("1. Create com.nanor.todoapp.Todo");
             System.out.println("2. List Todos");
             System.out.println("3.Delete Todos");
             System.out.println("4. Exit");
@@ -64,7 +66,7 @@ import java.util.Scanner;
                     }
 
                     if (deleteId == 0) {
-                        System.out.println("Todo deletion canceled.");
+                        System.out.println("com.nanor.todoapp.Todo deletion canceled.");
                         break;
                     }
 
