@@ -1,5 +1,6 @@
-# Java Calculator
-# 🧮 Java CLI Calculator
+
+# JAVA SIMPLE CALCULATOR
+# 🧮 Java CLI 
 
 A simple command-line calculator written in Java that supports **addition, subtraction, multiplication, and division** of multiple numbers.  
 The program allows users to enter as many numbers as they want, performs the chosen operation, and displays the full expression with the result.  
@@ -28,4 +29,4 @@ After displaying the result, the program can restart for another calculation.
 ## 🚀 How to Run
 1. **Compile the program**
    ```bash
-   javac Calculator.java
+

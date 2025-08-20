@@ -1,6 +1,7 @@
+package com.nanor.todoapp;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 // Service responsible for managing todos
 
@@ -10,12 +11,12 @@ import java.util.logging.Logger;
     public void createTodo(String title, String description) {
         Todo todo = new Todo(title, description);
         todos.add(todo);
-        System.out.println("Todo is created successfully");
+        System.out.println("com.nanor.todoapp.Todo is created successfully");
     }
 
    public void deleteTodo(Todo todo){
         if(todos.remove(todo)){;
-       System.out.println("Todo deleted Successfully");
+       System.out.println("com.nanor.todoapp.Todo deleted Successfully");
        }else{
             System.out.println("Delete is unsuccessful");
         }

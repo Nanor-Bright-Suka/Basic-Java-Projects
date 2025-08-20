@@ -1,4 +1,4 @@
-# 🎓 Student Grade Manager (Java Record)
+# 🎓 Student Grade Manager 
 
 A simple Java console app to manage student grades using **records** and **ArrayList**.
 

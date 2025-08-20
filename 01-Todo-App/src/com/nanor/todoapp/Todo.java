@@ -1,3 +1,5 @@
+package com.nanor.todoapp;
+
 public class Todo {
     private final String title;
     private final String description;

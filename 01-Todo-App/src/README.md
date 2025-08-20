@@ -1,6 +1,6 @@
-# Java Todo App
+# Java com.nanor.todoapp.Todo App
 
-This is a simple command-line Todo application built in Java.
+This is a simple command-line com.nanor.todoapp.Todo application built in Java.
 
 ## Features
 - Add todos
